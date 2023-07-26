@@ -6,31 +6,29 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #000;
+    background: #000000;
 }
 
 input{
     color: #fff;
-    padding: 17px;
-    outline: none;
     font-size: 30px;
     font-family: 'Saira', sans-serif;
-    border-radius: 25%;
+    border-radius: 20%;
+    margin: 10px;
 }
 
 .num{
     width:64px;
     height: 67px;
-    text-align: center;
 }
 
 .text{
-    width: 160px;
+    width: 200px;
     height: 26px;
     border-radius: 22px;
     letter-spacing: 5px;
     text-align: center;
-    margin-bottom: 12px;
+    padding: 17px;
 }
 
 .text1{
@@ -39,13 +37,10 @@ input{
     border-radius: 50%;
     letter-spacing: 5px;
     text-align: center;
-    margin-bottom: 12px;
     cursor: pointer;
+    padding: 17px;
 }
 
-main{
-    display: inline-block;
-}
 
 .maincolor{
     background-color: #000;
